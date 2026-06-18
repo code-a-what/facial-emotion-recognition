@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://share.streamlit.io/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no">
+    <meta name="theme-color" content="#FFFFFF">
+    <!-- Additional meta tags -->
+
+    <!--
+      We're putting icons here because ReactHelmet doesn't work for favicons.
+      See https://github.com/nfl/react-helmet/issues/430
+    -->
+
+    <!--
+    Following a mix of:
+    - https://medium.com/swlh/are-you-using-svg-favicons-yet-a-guide-for-modern-browsers-836a6aace3df
+    - https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/
+    -->
+    
+    <!--
+    Including all these other <link> statements here just so they're all in the same place.
+    Not because we expect someone to Helmet-override them.
+    -->
+    
+    <link rel="mask-icon" href="https://share.streamlit.io/favicon_safari_mask.png" color="#FF2B2B">
+    <link rel="apple-touch-icon" href="https://share.streamlit.io/-/build/favicon_256.png">
+    <link rel="manifest" href="https://share.streamlit.io/-/build/manifest.json">
+    <!-- Google Tag Manager -->
+    <script type="text/javascript" async="" src="./code-a-what&#39;s apps · Streamlit_files/analytics.js.download"></script><script type="text/javascript" async="" src="./code-a-what&#39;s apps · Streamlit_files/heap-269788835.js.download"></script><script type="text/javascript" src="./code-a-what&#39;s apps · Streamlit_files/commons.59560acdd69ed701c941.js.gz" async="" status="loaded"></script><script type="text/javascript" src="./code-a-what&#39;s apps · Streamlit_files/heap.dynamic.js.gz" async="" status="loaded"></script><script type="text/javascript" async="" src="./code-a-what&#39;s apps · Streamlit_files/analytics.min.js.download"></script><script async="" src="./code-a-what&#39;s apps · Streamlit_files/gtm.js.download"></script><script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-52GRQSL");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Segment -->
+    <script>
+      !(function () {
+        var analytics = (window.analytics = window.analytics || []);
+        if (!analytics.initialize)
+          if (analytics.invoked)
+            window.console && console.error && console.error("Segment snippet included twice.");
+          else {
+            analytics.invoked = !0;
+            analytics.methods = [
+              "trackSubmit",
+              "trackClick",
+              "trackLink",
+              "trackForm",
+              "pageview",
+              "identify",
+              "reset",
+              "group",
+              "track",
+              "ready",
+              "alias",
+              "debug",
+              "page",
+              "once",
+              "off",
+              "on",
+              "addSourceMiddleware",
+              "addIntegrationMiddleware",
+              "setAnonymousId",
+              "addDestinationMiddleware",
+            ];
+            analytics.factory = function (e) {
+              return function () {
+                var t = Array.prototype.slice.call(arguments);
+                t.unshift(e);
+                analytics.push(t);
+                return analytics;
+              };
+            };
+            for (var e = 0; e < analytics.methods.length; e++) {
+              var key = analytics.methods[e];
+              analytics[key] = analytics.factory(key);
+            }
+            analytics.load = function (key, e) {
+              var t = document.createElement("script");
+              t.type = "text/javascript";
+              t.async = !0;
+              t.src = "https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";
+              var n = document.getElementsByTagName("script")[0];
+              n.parentNode.insertBefore(t, n);
+              analytics._loadOptions = e;
+            };
+            analytics.SNIPPET_VERSION = "4.13.1";
+            analytics.load("GI7vYWHNmWwHbyFjBrvL0jOBA1TpZOXC");
+            // analytics.page()
+          }
+      })();
+    </script>
+    <!-- End Segment -->
+    <script type="module" crossorigin="" src="./code-a-what&#39;s apps · Streamlit_files/index-BxtXjWv2.js.download"></script>
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/rolldown-runtime-BM3Ffeng.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/jsx-runtime-CVaQUykL.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/schemas-DusxuzEz.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/bufferedData-CQnMOyZ5.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/routes-DMBps6qa.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/useFeatureFlagEnabled-R8Rips5_.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/page-BKUGxOhy.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/index.module-DvUIRpuJ.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/toFinite-C81UjuXQ.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/icon_star_outline-BKAzYr9f.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/emoji_u1f626-CqnwtSIQ.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/icon_edit-ClwlcGr-.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/icon_github-CGw1N2O6.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/ProfilePagePreview-DhxOYzNF.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/errorDetails-94nNL-Qa.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/iframe-C_3c3CAl.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/states-FjLt73dX.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/trim-BKnnMmO_.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/isEqual-Cwl032C_.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/confirmationModal-BV87eyxn.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/usePythonVersions-CHpR1ctl.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/appSettings-CFAYEmhU.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/popoverMenu-C4V7VmkP.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/useAppState-DWXSUqZd.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/errorPage-BRq5oGW2.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/notFound-Dj-tQJ0B.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/queryGithubRepository-DaBkbtxJ.js">
+    <link rel="modulepreload" crossorigin="" href="https://share.streamlit.io/-/build/assets/error-qrA6YyR4.js">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/schemas-CNmlmbri.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/useFeatureFlagEnabled-DggRfsTF.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/page-CMqMcZ9S.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/icon_star_outline-DH69RDEi.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/ProfilePagePreview-BWWUYPxS.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/errorDetails-BDQowOym.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/states-DADYhZUG.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/confirmationModal-BwNoJBuP.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/usePythonVersions-CBwCrTS9.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/appSettings-jOmLW4LG.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/popoverMenu-D49xGQkE.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/useAppState-SCryp0xD.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/errorPage-CK-Jpwy3.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/notFound-BzJWtTwJ.css">
+    <link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/index-BU_ChDqr.css">
+  <link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/onboardingFlow-DzUXAwjH.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/updateUserAppVisibilityInProfilePage-BHHEPl79.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/useAppTemplates-0NIrC4KX.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/withAnalytics-DJ3rw3zE.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/getTemplateScreenshot-DTJR1plO.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/path-ChJo7EUO.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/warningInfo-Z_WmTtEx.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/useUserDetails-C3ivrCuj.js"><link rel="modulepreload" as="script" crossorigin="" href="https://share.streamlit.io/-/build/assets/inBrowserEditorLegalDisclaimerModal-BbB__s4w.js"><link rel="stylesheet" crossorigin="" href="./code-a-what&#39;s apps · Streamlit_files/onboardingFlow-B6qxlTRP.css"><style media=""></style><title>code-a-what's apps · Streamlit</title><link id="favicon" rel="icon" href="https://share.streamlit.io/-/build/favicon.svg"><link id="alternate-favicon" rel="alternate icon" href="https://share.streamlit.io/-/build/favicon.ico"></head>
+  <body style="overflow: hidden;">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class=""><div class="_wrapper_1e4cd_1"><header class="_header_cxedy_1"><button class="_navAction_cxedy_72" aria-label="code-a-what&#39;s account" aria-haspopup="true" aria-expanded="false" fdprocessedid="ph1qz8"><img src="./code-a-what&#39;s apps · Streamlit_files/code-a-what.png" alt="Current workspace avatar"><div class="flex flex-row gap-4"><span class="_WorkspaceName_ub8lr_84">code-a-what</span><div class="flex flex-row gap-1 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1.42708 0.500006L4.66042 3.73334L7.89375 0.500006C8.21875 0.175006 8.74375 0.175006 9.06875 0.500006C9.39375 0.825006 9.39375 1.35001 9.06875 1.67501L5.24375 5.50001C4.91875 5.82501 4.39375 5.82501 4.06875 5.50001L0.24375 1.67501C-0.08125 1.35001 -0.08125 0.825006 0.24375 0.500006C0.56875 0.183339 1.10208 0.175006 1.42708 0.500006Z" fill="#323232"></path></svg></div></div></button><nav class="_externalLinkNavigation_cxedy_196"><div class="_externalLinkList_cxedy_208"><a class="_externalLink_cxedy_144 _navBarSectionSelected_cxedy_155" href="https://share.streamlit.io/">My apps</a><a class="_externalLink_cxedy_144" href="https://share.streamlit.io/user/code-a-what">My profile</a><a class="_externalLink_cxedy_144" href="https://share.streamlit.io/explore">Explore</a><a href="https://discuss.streamlit.io/" target="_blank" rel="noopener noreferrer" class="_externalLink_cxedy_144 gap-2">Discuss<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none" class="_iconAlert_cxedy_126"><g clip-path="url(#clip0_839_271)"><path d="M6.44448 3.99992C6.44448 4.37325 6.74448 4.66659 7.11115 4.66659H10.8378L3.57781 11.9266C3.31781 12.1866 3.31781 12.6066 3.57781 12.8666C3.83781 13.1266 4.25781 13.1266 4.51781 12.8666L11.7778 5.60659V9.33325C11.7778 9.69992 12.0778 9.99992 12.4445 9.99992C12.8111 9.99992 13.1111 9.69992 13.1111 9.33325V3.99992C13.1111 3.63325 12.8111 3.33325 12.4445 3.33325H7.11115C6.74448 3.33325 6.44448 3.63325 6.44448 3.99992Z" fill="#A3A8B8"></path></g><defs><clippath id="clip0_839_271"><rect width="16" height="16" fill="white" transform="translate(0.444458)"></rect></clippath></defs></svg></a><div class="_newAppButton_cxedy_284"><div class="flex hover:bg-black-200"><a class="_externalLink_cxedy_144" href="https://share.streamlit.io/new">Create app</a></div></div></div></nav><div class="_openMenuButtonContainer_cxedy_168" aria-haspopup="true" aria-expanded="false"><button aria-label="Open menu" class="_openMenuButton_cxedy_168"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="_menuIcon_cxedy_162"><path d="M0 0h24v24H0z" fill="none"></path><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></button></div><div class="_createAppButtonWrapper_cxedy_258" id="bui16__anchor"><button data-testid="new-app-button" class="_createAppButton_cxedy_258" fdprocessedid="ykkz17">Create app</button></div></header><main class="container _pageContainer_1e4cd_10"><div class="_header_4chdr_1"><h2>code-a-what's apps</h2></div><table class="_appTable_1fpzh_1"><thead class="_tr_1fpzh_7"></thead><tbody><tr class="_tr_1fpzh_7"><td class="_td_1fpzh_41 _menuCell_1fpzh_82"><a href="https://facial-emotion-recognition-ptjvotserpv8ms2yhywwbw.streamlit.app/" target="_blank" rel="noopener noreferrer" class="_link_ymhb9_1"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="_iconDashboard_1fpzh_166"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zM13 4v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z"></path></svg></a></td><td class="_td_1fpzh_41 _branchCell_1fpzh_59"><a href="https://facial-emotion-recognition-ptjvotserpv8ms2yhywwbw.streamlit.app/" target="_blank" rel="noopener noreferrer" class="_link_ymhb9_1 _repoName_1fpzh_192">facial-emotion-recognition ∙ main ∙ app.py</a><span class="_iconFavoriteWrapper_1fpzh_112" id="bui17__anchor"><button class="
+            _iconFavoriteButton_1fpzh_141
+            _favoriteButton_1fpzh_158
+          "><svg width="16" height="16" viewBox="0 0 16 16" fill="black" xmlns="http://www.w3.org/2000/svg" title="" class="
+              _iconFavorite_1fpzh_98
+              
+            "><g clip-path="url(#clip0_3_5)"><path d="M8 13.062L11.6374 15.364C12.3035 15.7859 13.1186 15.1622 12.9434 14.3735L11.9792 10.0447L15.1959 7.12837C15.7831 6.59645 15.4676 5.58764 14.6963 5.52344L10.4629 5.14743L8.80638 1.05714C8.50838 0.314286 7.49163 0.314286 7.19363 1.05714L5.5371 5.13825L1.30369 5.51427C0.532393 5.57846 0.216859 6.58728 0.804102 7.11918L4.02078 10.0356L3.05666 14.3643C2.88136 15.153 3.69648 15.7767 4.36261 15.3548L8 13.062Z"></path></g><defs><clippath id="clip0_3_5"><rect width="16" height="16"></rect></clippath></defs></svg><svg width="16" height="16" viewBox="0 0 16 16" fill="#262730" xmlns="http://www.w3.org/2000/svg" class="_iconFavoriteOutline_1fpzh_106" title=""><g clip-path="url(#clip0_3_2)"><path d="M14.7026 5.52037L10.4612 5.13542L8.80495 1.0568C8.50701 0.3144 7.49044 0.3144 7.19251 1.0568L5.53624 5.14459L1.30356 5.52037C0.532387 5.58453 0.216908 6.59273 0.80405 7.12431L4.02018 10.0389L3.05622 14.365C2.88095 15.1532 3.69594 15.7765 4.36195 15.3549L7.99869 13.0636L11.6355 15.3641C12.3015 15.7857 13.1165 15.1624 12.9412 14.3742L11.9773 10.0389L15.1934 7.12431C15.7805 6.59273 15.4738 5.58453 14.7026 5.52037ZM7.99869 11.3496L4.70372 13.4301L5.58005 9.50731L2.67063 6.86769L6.50896 6.5194L7.99869 2.82573L9.49726 6.52857L13.3356 6.87687L10.4261 9.5165L11.3025 13.4393L7.99869 11.3496Z"></path></g><defs><clippath id="clip0_3_2"><rect width="16" height="16"></rect></clippath></defs></svg></button></span></td><td class="_td_1fpzh_41 _statusCell_1fpzh_83"><a href="https://facial-emotion-recognition-ptjvotserpv8ms2yhywwbw.streamlit.app/" target="_blank" rel="noopener noreferrer" class="_link_ymhb9_1 _statusLink_1fpzh_90"><span id="bui32__anchor"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="_iconAlert_1fpzh_172"><path d="M10 0C4.48 0 0 4.48 0 10C0 15.52 4.48 20 10 20C15.52 20 20 15.52 20 10C20 4.48 15.52 0 10 0ZM11 15H9V13H11V15ZM11 11H9V5H11V11Z" fill="white"></path></svg></span></a></td><td class="_td_1fpzh_41 _menuCell_1fpzh_82"><span id="bui19__anchor"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000" class="_iconPublic_1fpzh_162"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg></span></td><td class="_td_1fpzh_41 _menuCell_1fpzh_82"><button type="button" data-testid="app-menu" class="_button_clfh0_1 _button_light_clfh0_14" aria-haspopup="true" aria-expanded="false" fdprocessedid="md4urp"><svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="_icon_clfh0_22"><path d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z" fill="white"></path></svg></button></td></tr></tbody></table><section class="_wrapper_1wiiq_1"><div class="_descriptionWrapper_1wiiq_7"><h3 class="_title_1wiiq_4">Get started from a template</h3><button class="_allTemplates_1wiiq_16" fdprocessedid="p5ligo"><span>View all templates</span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg></button></div><div class="_appsList_1wiiq_53"><div class="_app_1wiiq_53" data-testid="template-preview"><figure><img src="./code-a-what&#39;s apps · Streamlit_files/GDP-Dq6qbBnx.jpg" alt="placeholder"></figure><div class="_actionWrapper_1wiiq_74"><a href="https://share.streamlit.io/new/deploy-from-template/caba7b80-9494-42c4-ace9-5779ef744ae7"><h4>GDP dashboard</h4></a><div class="_viewDemo_1wiiq_85">View demo</div></div></div><div class="_app_1wiiq_53" data-testid="template-preview"><figure><img src="./code-a-what&#39;s apps · Streamlit_files/chatbot-Cb0n74Nt.jpg" alt="placeholder"></figure><div class="_actionWrapper_1wiiq_74"><a href="https://share.streamlit.io/new/deploy-from-template/b8e65aff-d8c7-4b7d-9d4c-eb79249dfc4b"><h4>Chatbot</h4></a><div class="_viewDemo_1wiiq_85">View demo</div></div></div><div class="_app_1wiiq_53" data-testid="template-preview"><figure><img src="./code-a-what&#39;s apps · Streamlit_files/support_tickets-BE90L2li.jpg" alt="placeholder"></figure><div class="_actionWrapper_1wiiq_74"><a href="https://share.streamlit.io/new/deploy-from-template/3df97a15-b44e-4fb9-8db0-8005c59b0adc"><h4>Support tickets</h4></a><div class="_viewDemo_1wiiq_85">View demo</div></div></div><div class="_app_1wiiq_53" data-testid="template-preview"><figure><img src="./code-a-what&#39;s apps · Streamlit_files/blank_app-ClcbHCfF.jpg" alt="placeholder"></figure><div class="_actionWrapper_1wiiq_74"><a href="https://share.streamlit.io/new/deploy-from-template/02d16230-8937-4c2d-bbd6-e9ff982734e0"><h4>Blank app</h4></a><div class="_viewDemo_1wiiq_85">View demo</div></div></div></div></section></main></div></div><div class=""><div><div data-focus-guard="true" tabindex="0" style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"></div><div data-focus-lock-disabled="false"><div data-baseweb="modal" class="st-b0 st-bx st-b1 st-by st-bd st-b2 st-bz"><div class="st-b3 st-c0 st-c1 st-c2 st-c3 st-c4 st-bz st-ec st-c6 st-bt st-c7 st-c8 st-bm"><div tabindex="-1" aria-modal="true" aria-label="dialog" role="dialog" class="st-bq st-ed st-ee st-ef st-eg st-eh st-b6 st-ei st-b7 st-cf st-ej st-ek st-bt st-do st-cj st-c8 st-bm st-ck st-cl st-cm st-el st-em st-en st-eo"><div class="_sideNavigationContainer_129rh_1"><div class="_topFade_129rh_49">&nbsp;</div><div class="_sideNavigationMenuContainer_129rh_14"><div class="_header_129rh_37 st-co st-cp st-cq st-cr st-bp st-cs st-cf st-ct st-cu"><div class="_title_129rh_41">App settings</div></div><div class="_itemList_129rh_27"><nav role="navigation" data-baseweb="side-navigation" class="st-co st-ep st-cw st-eq st-bp st-er st-es st-et st-eu st-ev st-d4 st-d6 st-d3 st-d5"><ul role="list" class="st-er st-es st-et st-eu st-ev st-d4 st-d6 st-d3 st-d5"><li class=""><a href="https://share.streamlit.io/GENERAL" class="st-ew st-ex st-ey st-ez st-f0"><div class="st-f1 st-f2 st-f3 st-as st-aj st-f4 st-bp st-dn st-f5 st-f6 st-f7 st-e5 st-f8 st-f9">General</div></a></li><li class=""><a href="https://share.streamlit.io/SHARING" class="st-ew st-ex st-ey st-ez st-f0"><div class="st-ff st-f3 st-as st-aj st-de st-dn st-f5 st-f6 st-f7 st-e5 st-f8 st-f9">Sharing</div></a></li><li class=""><a href="https://share.streamlit.io/SECRETS" class="st-ew st-ex st-ey st-ez st-f0"><div class="st-ff st-f3 st-as st-aj st-de st-dn st-f5 st-f6 st-f7 st-e5 st-f8 st-f9">Secrets</div></a></li></ul></nav></div></div><div class="_sideNavigationBodyContainer_129rh_31"><form action="https://share.streamlit.io/#" class="_modal_mt4oh_1"><div class="_modalBody_mt4oh_6"><div class="_root_wb7ho_1"><div class="_root_ruz81_1"><div class="_header_ruz81_5 _bodyAsSubTitle_1dzgm_1"><h3>App URL</h3><h4>Pick a custom subdomain for your app’s URL. The default URL is based on the app's location in GitHub.</h4></div><div class="_container_xup9v_1"><div><div class="_labelContainer_1x1jn_1"></div><div data-baseweb="input" class="st-f3 st-b3 st-fg st-c2 st-dp st-dq st-dr st-ds st-aj st-ak st-al st-am st-fh st-d9 st-bm st-fi st-fj st-fk st-fl st-co st-ep st-cw st-eq st-fm st-fn st-fo st-fp st-fq st-fr st-fs"><div data-baseweb="base-input" class="st-b3 st-c2 st-ft st-d9 st-bm st-co st-ep st-cw st-eq st-bp st-fq"><input aria-invalid="false" aria-required="false" autocomplete="on" inputmode="text" name="subdomain" placeholder="" type="text" class="st-f3 st-ff st-fu st-fv st-fw st-fx st-fy st-fz st-g0 st-g1 st-ex st-c2 st-g2 st-cg st-g3 st-g4 st-g5 st-g6 st-g7 st-fs st-co st-ep st-cw st-eq st-bp st-g8 st-g9" value="facial-emotion-recognition-ptjvotserpv8ms2yhywwbw" fdprocessedid="0jbecc"></div><div class="st-b3 st-c0 st-c1 st-ga st-d9 st-bm st-co st-ep st-cw st-eq st-gb st-gc st-bp st-fq">.streamlit.app</div></div></div></div></div></div><div class="_sectionDivider_1dzgm_5"></div><div class="_root_wb7ho_1"><div class="_root_ruz81_1"><div class="_header_ruz81_5 _bodyAsSubTitle_1dzgm_1"><h3>Python version</h3><h4>Choose which Python version to run your app.</h4></div><div class="_container_xup9v_1"><div><div class="_labelContainer_1x1jn_1"></div><div data-baseweb="select" class="st-co st-ep st-cw st-eq st-f3 st-bq st-c2"><div class="st-fi st-fj st-fk st-fl st-f3 st-fg st-c2 st-b3 st-gd st-g3 st-dp st-dq st-dr st-ds st-aj st-ak st-al st-am st-ge st-d9 st-bm st-bp st-fm st-fn st-fo st-fp st-fq"><div class="st-f3 st-bq st-gf st-gg st-gh st-b3 st-c0 st-gi st-fg st-g5 st-g6 st-gj st-d5"><div value="311" class="st-gk st-f3 st-gl st-gm st-cg st-fg st-gn st-go st-gp">3.11</div><div class="st-bq st-gq st-cg st-ff st-fy st-g0 st-fz st-g1 st-gr st-f3 st-ex st-es st-et st-gl st-ev st-d4 st-d6 st-d3 st-d5 st-gs st-gt"><input aria-autocomplete="list" aria-expanded="false" aria-haspopup="listbox" aria-label="Selected 3.11. " id="pythonVersion" role="combobox" tabindex="0" class="st-co st-ep st-cw st-eq st-bp st-gu st-h7 st-cg st-d1 st-fy st-g0 st-fz st-g1 st-gr st-gq st-ex st-es st-et st-eu st-ev st-d4 st-d6 st-d3 st-d5" value="" fdprocessedid="jh36ut" aria-activedescendant="bui33val-1"><div class="st-co st-ep st-cw st-eq st-bc st-bd st-b2 st-gw st-gx st-gy st-gz"></div></div></div><div class="st-f3 st-bq st-b3 st-h0 st-c0 st-h1 st-e5"><svg data-baseweb="icon" title="open" viewBox="0 0 24 24" class="st-gq st-h2 st-bp st-h3 st-h4"><title>open</title><path d="M12.7071 15.2929L17.1464 10.8536C17.4614 10.5386 17.2383 10 16.7929 10L7.20711 10C6.76165 10 6.53857 10.5386 6.85355 10.8536L11.2929 15.2929C11.6834 15.6834 12.3166 15.6834 12.7071 15.2929Z"></path></svg></div></div></div></div></div></div></div></div><div class="_modalFooter_mt4oh_12 st-co st-cv st-cw st-cx st-h5 st-ct st-cz st-f5 st-f6 st-h6"><button type="button" class="_button_qx90d_1 _button_primary_qx90d_26" fdprocessedid="ivqmgv">Save changes</button></div></form></div></div><button aria-label="Close" class="st-d1 st-d2 st-d3 st-d4 st-d5 st-d6 st-fa st-d8 st-d9 st-da st-db st-dc st-dd st-aj st-ak st-al st-am st-de st-df st-dg st-dh st-di st-cm st-bc st-fb st-dk st-dl st-dm st-b3 st-c1 st-c0 st-dn st-fc st-fd" fdprocessedid="x6xsf5"><svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" style="stroke: currentcolor;"><path d="M9 1L5 5M1 9L5 5M5 5L1 1M5 5L9 9" stroke-width="2" stroke-linecap="round"></path></svg></button></div></div></div></div><div data-focus-guard="true" tabindex="0" style="width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"></div></div></div></div>
+
+    <!-- Status page embed -->
+    <script src="./code-a-what&#39;s apps · Streamlit_files/script.js.download"></script><iframe src="./code-a-what&#39;s apps · Streamlit_files/frame.html" title="Streamlit Cloud Status" aria-hidden="true" tabindex="-1" style="position: fixed; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; box-shadow: rgba(9, 20, 66, 0.25) 0px 20px 32px -8px; z-index: 9999; transition: left 1s, bottom 1s, right 1s; height: 115px; width: 320px; left: -9999px; right: auto; bottom: 60px;"></iframe>
+  
+
+<div data-baseweb="toaster" class="st-az st-b0 st-b1 st-b2 st-b3 st-b4 st-b5 st-b6 st-b7 st-b8 st-b9 st-ba st-bb"></div><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
